@@ -21,19 +21,21 @@ h1{
     font-size: 50px;
 }
 
-.modeContainer{
+.settingContainer{
     width: 3000px;
     height: 40px;
     display: flex;
     justify-content: center;
     gap: 20px;
     align-self: center;
+    align-items: center;
 }
 
 button{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     justify-content: center;
+    height: 40px;
 }
 
 .canvas{
@@ -60,8 +62,6 @@ button{
 .tile{
     display: flex;
     flex: 1 1 auto;
-    width: 6.25%;
-    height: 6.25%;
 }
 
 
