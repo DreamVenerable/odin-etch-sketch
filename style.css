@@ -48,6 +48,15 @@ button{
     background: white;
 }
 
+.tileDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    width: 500px;
+    height: 500px;
+}
+
 .tile{
     display: flex;
     flex: 1 1 auto;
