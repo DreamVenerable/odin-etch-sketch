@@ -42,8 +42,8 @@ button{
     justify-content: flex-start;
     align-content: stretch;
     border: 0.1px solid black;
-    width: 50vmax;
-    height: 50vmax;
+    width: 500px;
+    height: 500px;
     box-shadow: 1px 1px 10px 2px grey;
     background: white;
 }
@@ -53,4 +53,14 @@ button{
     flex: 1 1 auto;
     width: 6.25%;
     height: 6.25%;
+}
+
+
+
+@media (max-width: 650px) {
+  
+    .canvas {
+      width: 300px;
+      height: 300px;
+    }
 }

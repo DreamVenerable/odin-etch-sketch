@@ -44,7 +44,7 @@ const tile = document.querySelectorAll('.tile')
 tile.forEach( (tiles) => {
 
     tiles.addEventListener('mouseenter', () => {
-        
+
         if(rgbMultiplier === 1){
             tileColor = `rgb(${r()}, ${r()}, ${r()})`
         }
@@ -58,4 +58,5 @@ tile.forEach( (tiles) => {
         tiles.style.background = tileColor
     })
 })
+
 
