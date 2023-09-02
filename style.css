@@ -1,0 +1,56 @@
+body{
+    background: rgb(218, 201, 181);
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.modeContainer{
+    width: 3000px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-self: center;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.canvas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    border: 0.1px solid black;
+    width: 50vmax;
+    height: 50vmax;
+    box-shadow: 1px 1px 10px 2px grey;
+    background: white;
+}
+
+.tile{
+    display: flex;
+    flex: 1 1 auto;
+    width: 6.25%;
+    height: 6.25%;
+}
