@@ -15,7 +15,7 @@ for(let i = 0; i < 256; i++){
 }
 
 
-//logic for checkbox toggle
+//button mode
 let blackMode = document.getElementById('black')
 let eraser = document.getElementById('white')
 let colorMode = document.getElementById('color')
