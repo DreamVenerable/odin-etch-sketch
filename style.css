@@ -68,8 +68,12 @@ button{
 
 @media (max-width: 650px) {
   
-    .canvas {
+    .canvas, .tileDiv {
       width: 300px;
       height: 300px;
+    }
+
+    .settingContainer{
+        gap: 5px;
     }
 }

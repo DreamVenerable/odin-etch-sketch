@@ -39,19 +39,19 @@ clear.onclick = () => reloadTiles()
 function setTileButton(size){
     if(size === "16"){
         tileSize.setAttribute('value', 32)
-        tileSize.innerText = '32 x 32'
+        tileSize.innerText = '16 x 16'
     }
     else if(size === "32"){
         tileSize.setAttribute('value', 64)
-        tileSize.innerText = '64 x 64'
+        tileSize.innerText = '32 x 32'
     }
     else if(size === "64"){
         tileSize.setAttribute('value', 8)
-        tileSize.innerText = '8 x 8'
+        tileSize.innerText = '64 x 64'
     }
     else if(size === "8"){
         tileSize.setAttribute('value', 16)
-        tileSize.innerText = '16 x 16'
+        tileSize.innerText = '8 x 8'
     }
 }
 
@@ -114,7 +114,7 @@ function changeTileColor(e){
         tileColor = 'black'
     }
     else if(rgbMultiplier === 99999){
-        tileColor = 'white'
+        tileColor = ''
     }
 
     e.target.style.background = tileColor
